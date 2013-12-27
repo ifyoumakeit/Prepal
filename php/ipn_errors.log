@@ -1,0 +1,1410 @@
+[05-Nov-2013 19:18:04] PHP Notice:  Undefined property: PurchasePal::$title in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 83
+[05-Nov-2013 19:18:04] PHP Notice:  Undefined variable: success in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 87
+[05-Nov-2013 19:18:04] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:18:04] PHP Notice:  Undefined property: PurchasePal::$user_name in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:18:04] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 93
+[05-Nov-2013 19:18:04] There has been a mail error sending to 
+[05-Nov-2013 19:18:04] --------------------------------------------------------------------------------
+[11/05/2013 7:18 PM] - https://www.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Wed, 06 Nov 2013 00:18:04 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=Z2I6_VfeYc-izwzxC1r9YVWvM8ywNS05-fiYK_NNlJFfWAdMEvBNQ7CT6Kz7z2reA8loI3pKL7PMc8kXVHQzxLbs9Y1pogWwj-jK-v5GwijtQ2TgaBvS5MKt8omgrSadSkUc8KuLk-Jm2ok1dhdTE8AbkMyFtj35efwlJoCo7zh-uXJejWAzzMP3n3MSst_Tldmm7MuCa8w8s7aWXDIHg2MBDPmhl5YJnOm6Qs3h94UFrJGnoYYcNtpA-ZbQ1Yil-cLiiWlPF6SM_vhTaqUiVnxuGA3h7YTdd02mscQ0uGvp1eN7iE66K3pQze5yhYEl7msIUGjknIqE0bmwRdAfQ08EZoqLO64UZPG_EeTGTLv4gQl9HRx_FTZpxx3XbOMv2OiLRV9nRwpRyTnxaGMaJxRnNaJKf3ZWvFG_RAHv72BZQsINE8qAkMWxLZO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:18:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:18:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1383697084195976; path=/; expires=Fri, 30-Oct-43 00:18:04 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3163191634; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.67.1383697084189817; path=/; expires=Fri, 30-Oct-43 00:18:04 GMT
+Set-Cookie: DC=slc-b-origin-www-2.paypal.com; secure
+Set-Cookie: aksession=1383697384~id=cookieQHfMpGi4IKnQb5bRXhtVm04+Y9R9noH+PYsXn3v1wmbs0lrFlGg0mSpCsJQe0flJXHceKQBRmoSbbGsyTYMJUS+mRzzLzVDkPXJfz2Ahhl9L24/hea8GI+xkgmcN6106OM/E0/OdnjU=; expires=Wed, 06-Nov-2013 00:23:04 GMT; path=/; domain=.paypal.com
+
+INVALID
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   152465720
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:15:22 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31AcCuEY5on2seDVKX7txFnuTubJTL
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:19:31] PHP Warning:  require(php/PHPMailerAutoload.php): failed to open stream: No such file or directory in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 8
+[05-Nov-2013 19:19:31] PHP Warning:  require(php/PHPMailerAutoload.php): failed to open stream: No such file or directory in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 8
+[05-Nov-2013 19:19:31] PHP Fatal error:  require(): Failed opening required 'php/PHPMailerAutoload.php' (include_path='.:') in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 8
+[05-Nov-2013 19:20:07] PHP Fatal error:  Class 'IpnListener' not found in /var/www/vhosts/ifyoumakeit.com/store/paypal.php on line 5
+[05-Nov-2013 19:21:21] PHP Fatal error:  Class 'IpnListener' not found in /var/www/vhosts/ifyoumakeit.com/store/paypal.php on line 5
+[05-Nov-2013 19:23:25] No POST data found.
+[05-Nov-2013 19:23:33] PHP Notice:  Undefined property: PurchasePal::$title in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 83
+[05-Nov-2013 19:23:33] PHP Notice:  Undefined variable: success in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 87
+[05-Nov-2013 19:23:33] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:23:33] PHP Notice:  Undefined property: PurchasePal::$user_name in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:23:33] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 93
+[05-Nov-2013 19:23:33] There has been a mail error sending to 
+[05-Nov-2013 19:23:33] --------------------------------------------------------------------------------
+[11/05/2013 7:23 PM] - https://www.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Wed, 06 Nov 2013 00:23:33 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=gkOVDYHgLZV9rst-GMkcTm8F_X59iejPi4taaF4e_CCn3PHN3GJK_lLYyQeiMbbj9aIRJZiWUMkZq_EEAuwj8E4TU7M_RDaYe67UIGKav7po_6haF6YCgFrJrXRamAsApNPuA2FD-YVWhqr5KBpIaoBrUi0dZNISbs0HNxxKkJcYF-Wo_iK8BbgZzOM31rpxU0xmAIh0sYzQ8eOeGFB-4HyRSbZQnexJDc44ImxYAFbXpoBGGHSKmZnOcb7VBFFnG-6N1-oEdbGQWAz7smXBK602xrn4K0V27Hj806bGJOwCM4lhBpz55by5B7w941d6QAxMoxHeMWOphzEwfPKHiWl5HZWVH76KwoRhiotTDcqnlw23yUnQTMao-TyMpgeQP1E_OXfX-qZcO6MxHKzEY2FWRinsa4FgkXpib5NF48N6I81ELASVr4CdfpG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:23:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:23:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1383697412710016; path=/; expires=Fri, 30-Oct-43 00:23:32 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D76314962; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.64.1383697412704155; path=/; expires=Fri, 30-Oct-43 00:23:32 GMT
+Set-Cookie: DC=slc-b-origin-www-2.paypal.com; secure
+Set-Cookie: aksession=1383697713~id=cookieztfPfFqixxAH4bn12fF7NrgXKbAPjBkfNSxW9KQxBazfO2Jtx3klxZajD1pa70mQy90+xaG5SH4ERixz37lHZHvTH6asl4+fXZRI2876mf7QwXqIf4TCgdBVkhbPXQxwGI0pKkV4D/o=; expires=Wed, 06-Nov-2013 00:28:33 GMT; path=/; domain=.paypal.com
+
+INVALID
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   321964181
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:21:20 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AM0l6PHVXS1oV-uiIvqDH5zPAjz9AF78fjDei.9kbJ9xWALb7MSarw-p
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:25:27] PHP Notice:  Undefined property: PurchasePal::$title in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 83
+[05-Nov-2013 19:25:27] PHP Notice:  Undefined variable: success in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 87
+[05-Nov-2013 19:25:27] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:25:27] PHP Notice:  Undefined property: PurchasePal::$user_name in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 90
+[05-Nov-2013 19:25:28] PHP Notice:  Undefined property: PurchasePal::$user_email in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 93
+[05-Nov-2013 19:25:28] There has been a mail error sending to 
+[05-Nov-2013 19:25:28] --------------------------------------------------------------------------------
+[11/05/2013 7:25 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:25:27 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=wKFTzZBlGu5X_ru3m5xRrtHPbbG-MKEGyHWAI54ooX_EcPGECTBgYiruDlO7zl6ylDCgVEjO3FSzSZ8fMbeX0EQhf6mdPkMfPUACyIUefhslKLGvtNqqJLqsPn2EahMzDLF8AdMqulvPFLpDMDhfzGruEWYRCMNQmOAKYrHSgBAR1ltWRR754AYzRp5YpMG_OspBoPsUUYppCd-Nq3sfNPd-_W5p8zGeuVXlE4sEq0NfeadBgStr0IQfuGJ3V2-ukETTlEl5pMCS9rGYJQe4i02Yb2cT666FTI-fMz8Bt3Zy26tw5PtuwzjBFgpehQTJrSynej-XFaYtgX06YlH-KcNDEGUNrt-rl1p7Tj_s-G40iuhg_figtjyKryv7RZn4wi3o2PkzDh_4e5OxyssuHH25FXu5DWxJNMt0rt00KV22W9JKBmkIXwXUzB0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:25:27 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:25:27 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383697527508196; path=/; expires=Fri, 30-Oct-43 00:25:27 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D2005694802; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383697527496141; path=/; expires=Fri, 30-Oct-43 00:25:27 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   965040069
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:23:32 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AQU0e5vuZCvSg-XJploSa.sGUDlpAKTk-ui-gqO2nRJwV7ejOy6XN5hC
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:27:38] PHP Notice:  Undefined property: PurchasePal::$title in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 83
+[05-Nov-2013 19:27:40] Email sent to buyer@paypalsandbox.com
+[05-Nov-2013 19:27:40] --------------------------------------------------------------------------------
+[11/05/2013 7:27 PM] - https://www.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Wed, 06 Nov 2013 00:27:38 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=ZlW8FWsPDdNmgkDnrifewzvCLvEM9VYgkPMfsiiROXw54ZStmDWRlnOWMVg0ew3QU1RcN5B920Gd3usMt-ELZMtezPUFBuZdE-c0wdTDRc9WMAUKJhR25KW3jDnpFA6niiPcScO9wwNZrbg16AXO9t_8FfSmNZCqoiSWErV-_R3FfQiPyOeeFUAaKlmKwVKWTfvjQ-jmnRxfaJF6MT0S36vZVYwh2mTlVwOQMkRits0zIwZFP-Te1W4MakIKRaL02RlTCZj8726G1M2rJgDYSJmkifv--62fbeAEjWvW1edwn21MAUTsLvH5RGRZ1jd18-RUl3IbVXigG0LUIlLnFTV41CNkYChwGGNoFe5LaE-YCD3PKluSy6Spj_339-1Uua-wXHXId-5D2PF3upPwxPMTUWIzXR-Yf4zuw3ubkACKGu0Q1IPErIbAaFG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:27:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:27:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1383697657709520; path=/; expires=Fri, 30-Oct-43 00:27:37 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D4186732882; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.50.1383697657702959; path=/; expires=Fri, 30-Oct-43 00:27:37 GMT
+Set-Cookie: DC=slc-b-origin-www-1.paypal.com; secure
+Set-Cookie: aksession=1383697958~id=cookiedngXcxbHV/fRpS+9z8FWvVRA1KdRISFEE1zZW7OqeD3ePnwRzjjucHQY+FJHsAnhYFKBfiFVEwvA2MnACvr27eQtO5y2GvaBmUEVu8lVnrNMjnhJbjIuAOA2QiDEGb69x1PJ7XQd0GA=; expires=Wed, 06-Nov-2013 00:32:38 GMT; path=/; domain=.paypal.com
+
+INVALID
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   298337210
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:25:26 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31ATZQrWooAkdzai6JztKucqeDN8Ly
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:28:51] Email sent to buyer@paypalsandbox.com
+[05-Nov-2013 19:28:51] --------------------------------------------------------------------------------
+[11/05/2013 7:28 PM] - https://www.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Wed, 06 Nov 2013 00:28:50 GMT
+Content-Length: 7
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=HQYm9xcn8mVsPxibyI7SWYLxJn4lvOeQesKxl1xkByZVYLYl4c73aPwRUUieer67WUycflc-KGhwbuJvvjHICHl3LdB6MQOMFiy-tObB9JyLXn6kkxrCRkkA5EByaaALBhQOeq6PoevkN57QKnX8IVqOgTTt0rHMij2DDZXeUnYHuGxiEXfeyyeC5FgeI6_je-QVNSuNBi5q4vFn6aVRIngKt7JUnDYHNvWSQpaDnMH4m6bN_P-jC_-w6EhqHCPoc-LYVxzKU6GNFAwx9NNYG_t6E5mfQQnpL-86BMzfMGlT6oFNv_Se-la-tNrUrbLzDdCdvtH5D-9IV4B7GO3JmbzhFFpRq4tIPlnVuXiwPvsMX6B3TTMU-Tei0xtsGXsaJJKcI7TIEcbz5tHMUpxqHm-wi2CESjssQlegJW3DusrmZAWQx-_7D9L97w4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:28:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1383697730061577; path=/; expires=Fri, 30-Oct-43 00:28:50 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1116567890; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.39.1383697730054164; path=/; expires=Fri, 30-Oct-43 00:28:50 GMT
+Set-Cookie: DC=slc-b-origin-www-1.paypal.com; secure
+Set-Cookie: aksession=1383698030~id=cookieBjwR2k/yLnxge4oLXkDGQ9kn9kvCaKRNGB3nlNK4mEAhlwPFt2X5Aht3My2IH5RSZ13Bd0S2mUJoherDLSRKFm6Wy3zOhPY4nv/oyD/CtgNA0JoVJeDfwcZQWkaGVpERPv6/wYhl97s=; expires=Wed, 06-Nov-2013 00:33:50 GMT; path=/; domain=.paypal.com
+
+INVALID
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   1075382959
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:27:35 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              An5ns1Kso7MWUdW4ErQKJJJ4qi4-A9UI-4.UVNTdpIZq0.RvLT0Khamf
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:29:25] PHP Notice:  Undefined property: PurchasePal::$printDownload in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 87
+[05-Nov-2013 19:29:25] There has been a mail error sending to buyer@paypalsandbox.com
+[05-Nov-2013 19:29:25] --------------------------------------------------------------------------------
+[11/05/2013 7:29 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:29:25 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=1qXnxNnOZJYeyztk-gNFGmsxPu2BIRSMH4al9N9zTkxqZedXifOHjwwDjgL2qBpVAl_FS_eIiVX_7BezTBVXXJ0ojFN_Ln0KFtM94BUdoq6NX2YqjbJBMhFt_496T6r0bhIszr_4pvpCKr9xEcRI1xdZFusj_LN8qzIbipFihxgHlQ--dWaEb4Ol_crXNlxw6L-_9M-3Cgsq0m6-E2r-fiksEhEAxxT5uv_Ri6GO0A0rUkg878cVhEWtnzICfGOVW_GmSPvJBz9sFVrPkpd2-PTL2pYsictnfRvAPVPs6AUhDtvH4_ddcJPZb4lTuCcgBnIJDWYLbigQ7DuUFsqNyYeCk3kQ0VbdaVwA2V9xXI-p9VRsO-JdYgynw6Yv81_y5B89hqoGrwPQV-DfEOQb4yr70Ag-A5BU4Rk21fAQ22ci4O6R4-X2Z1PWo_q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:29:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:29:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383697765148502; path=/; expires=Fri, 30-Oct-43 00:29:25 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1703770450; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383697765137529; path=/; expires=Fri, 30-Oct-43 00:29:25 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   162660620
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:28:49 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              Aa1XrdDnBg04a642S20jRAmp7KRQAjS78cLvpA0PvtE..BhqlnSZgY4c
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              buyer@paypalsandbox.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:30:06] PHP Notice:  Undefined property: PurchasePal::$printDownload in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 87
+[05-Nov-2013 19:30:06] There has been a mail error sending to admin@ifyoumakeit.com
+[05-Nov-2013 19:30:06] --------------------------------------------------------------------------------
+[11/05/2013 7:30 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:30:06 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zFDg8Jk4VsYRcrbnpFERAX3ZWsRG8NaGy-zGtmDzxFhcTOwYPe1d0Bv5oe5VM1sB8dMR_fL1QIi4p3KiBSkSPFjZklSlXBuD7K3vV7fyU-SVYE8tXYt2CwGMfHaiwgJGb8eyk1KwKogzrYKeeTpgGxt9NfANI_3cSISyVMQcmfGG09jE_ipRnB5vQGSrE32p43X3ypWYm7TXnpnW5axfVnvmi_ArfKQtBrmzxWbRPBjWgde0D8m7NOt0oNiJC2qTspeVi24CH0ownLvYx8coHe1veFl5HLOCBHIo3PPsH727qSypt768srPQkt8lBGyWXib79F0IVWfYUGOcCa3KNf8frmXE_QZ73JQB1xLHDKkoVOHuq5EQZWpJJZ-dwuLF8HWmFz1sKVH-KHSn6T0tLBbJTAttw48TALxq8W8tESwsHkudwr0sjKn-N5S; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:30:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:30:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383697806449581; path=/; expires=Fri, 30-Oct-43 00:30:06 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D2391636306; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383697806439034; path=/; expires=Fri, 30-Oct-43 00:30:06 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   445468543
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:29:24 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AwlPjmFBa6Teg.3eWdCmRedGGPYgAdo4lWjMX0W1WS2-B2Qj8ibIYDUH
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              admin@ifyoumakeit.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:32:32] PHP Notice:  Undefined variable: user in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 127
+[05-Nov-2013 19:32:32] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 127
+[05-Nov-2013 19:32:33] Email sent to admin@ifyoumakeit.com
+[05-Nov-2013 19:32:33] --------------------------------------------------------------------------------
+[11/05/2013 7:32 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:32:31 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=77zF0qeZFjPTmVvim0NmSMSF83K4nEhC3oyCBazy44TaJfcBb5Zng1bXMieG33eUaR1jxrnu4kAqsztm62LVptA2evb5d5jlUhyBnW4eT3clizsShNGVxP3Dc57gU5aIcjFvhdIe8wUjmGFtCKvotfgsyEXeo3ApIl6M-356Uf12eOIpHYkbM6zhg7Fs4PV71OwQIuj7C2dCYSjZQ3NbC0zgztvhZErUQjakYq-AnL17xIbmIhI7izUUpDwlSgK-u8U9zIk-NLsi8C3C4911P7eSaj17YsRrE7cmeQldFY5a0khb92lfY5hV2vXSBsF_6fv0jGEZLPfFHXqMcpQEPSNhUC5aFx6qMx98pJO_Bu7dVgRnh3BzGE27L0_NOgLwqB34ntr_r3PZ2yDkjdcBXuBAPlc1Xi5UCk6MF7uHxO7NGuMlTAC9kPa0dku; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:32:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:32:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383697951943488; path=/; expires=Fri, 30-Oct-43 00:32:31 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D529430866; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383697951930367; path=/; expires=Fri, 30-Oct-43 00:32:31 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   689716970
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:30:05 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AT8JshDeqvKNNIPvVzy8rRYhoULSAn38Mne-ArbickoNk13npAs53T7R
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              admin@ifyoumakeit.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:33:55] Email sent to admin@ifyoumakeit.com
+[05-Nov-2013 19:33:55] --------------------------------------------------------------------------------
+[11/05/2013 7:33 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:33:53 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ycTu5ravifamW7YOnK8bz6TnWievpGwRgOG8f3Jymtig83juru7XQtNlcGsChPVCaV_5D9buUl6JS_E9WaNKcXQyDNt5XiftRacoUrUfT94Gn36uTJJBQDplFt54DB93KOVVeTVQOK7MvWzFSTU3HegiA-821wh9M0O98X1gw6KNpWBx4Hu5M52BpyHGlY_e904_Gn_SMJHVVT73bOf6CW-7r8t3OMHzcr5zps2HnhUZTqjWDr2Qfk07_N_TSl3n8K-rdv7hyD4H7LkX-WbIrm08Cg54iLtFhFSnsh2zfOsfdlBCOmMqaZLGddUQBLr5i31-UzIzT9mmjPjxhfEvT9m_LJ3lm8_ShXXcwQmIl5XXt_3NzH0w9NLh7X3hhJlINuowXbmRsP8jKCbpyhms31y4bWVVw59LwWCbcjr-VUs6msld_Og7_xicZCy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:33:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:33:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383698033554171; path=/; expires=Fri, 30-Oct-43 00:33:53 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1905162578; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383698033543873; path=/; expires=Fri, 30-Oct-43 00:33:53 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+shipping                 3.04
+payer_id                 TESTBUYERID01
+first_name               John
+mc_fee                   0.44
+txn_id                   596238705
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:32:31 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31AGp7QHEroVDv-kAnNqXEyrqDEti.
+address_country          United States
+address_status           confirmed
+payment_status           Completed
+business                 seller@paypalsandbox.com
+payer_email              admin@ifyoumakeit.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+mc_gross1                12.34
+address_state            CA
+payment_type             echeck
+address_street           123, any street
+
+
+
+[05-Nov-2013 19:35:24] Email sent to admin@ifyoumakeit.com
+[05-Nov-2013 19:35:24] --------------------------------------------------------------------------------
+[11/05/2013 7:35 PM] - https://www.sandbox.paypal.com/cgi-bin/webscr (curl)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Wed, 06 Nov 2013 00:35:22 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=VdQXXwuI_1_LKLmJptat999vCOUkItMeGRKKLrGeIuJ1weqYP8y389VcLi3lAItoeoQtQrMo_yIU7RHrBU-p5jrVjCiEFNUNuAiOh2XHZF9kkzPPW1CncDK3N4hrmYuv55fEDIYsCOH7m0ZdwPDM9--cEgsRHXmSeHvefnlhlcwT4Hz_kk_gfwc_ei-Q1SSgVajEcE3w6-BwYP-SgQBYHdm64yczM1rX2zxexTbAeFOqHNqJ4UJoyPaXa8ZuNzd_oQXDbo375BtBlTUvnPkNVpKHJaAj7azKbkEYj5Bd8_0Jb1fh8CXHnoYV892b0S9ByivyAp-gtWg88WRyQ1u4AbzhAbhCwPJgdpjq-Dzqf62GlnC3MznqG6CXmcIeZXwh9N-xgKkSr0Jr-qqccyb2KbCA9LyaGDJ534kxrva11-RQtmmeJVHGI4sROge; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 04-Nov-2023 00:35:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 06-Nov-2015 00:35:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.109.11.1383698122725797; path=/; expires=Fri, 30-Oct-43 00:35:22 GMT
+X-Cnection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3398334802; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1383698122717247; path=/; expires=Fri, 30-Oct-43 00:35:22 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+--------------------------------------------------------------------------------
+residence_country        US
+invoice                  abc1234
+address_city             San Jose
+first_name               John
+payer_id                 TESTBUYERID01
+shipping                 3.04
+mc_fee                   0.44
+txn_id                   903073338
+receiver_email           seller@paypalsandbox.com
+quantity                 1
+custom                   xyz123
+payment_date             16:33:52 5 Nov 2013 PST
+address_country_code     US
+address_zip              95131
+tax                      2.02
+item_name                something
+address_name             John Smith
+last_name                Smith
+receiver_id              seller@paypalsandbox.com
+item_number              AK-1234
+verify_sign              AFcWxV21C7fd0v3bYYYRCpSSRl31Ay-kZd0C1p.oEeAnRJwXEA58.tYa
+address_country          United States
+payment_status           Completed
+address_status           confirmed
+business                 seller@paypalsandbox.com
+payer_email              admin@ifyoumakeit.com
+notify_version           2.1
+txn_type                 web_accept
+test_ipn                 1
+payer_status             verified
+mc_currency              USD
+mc_gross                 12.34
+address_state            CA
+mc_gross1                12.34
+payment_type             echeck
+address_street           123, any street
+
+
+
+[06-Nov-2013 11:26:50] PHP Fatal error:  Call to undefined method PurchasePal::checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 51
+[06-Nov-2013 11:28:42] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 249
+[06-Nov-2013 11:28:43] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 249
+[06-Nov-2013 11:28:44] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 249
+[06-Nov-2013 11:28:45] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 249
+[06-Nov-2013 11:29:12] PHP Notice:  Undefined property: User::$countries in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 289
+[06-Nov-2013 11:29:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 289
+[06-Nov-2013 11:30:33] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 51
+[06-Nov-2013 11:30:34] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 51
+[06-Nov-2013 11:30:35] PHP Fatal error:  Call to undefined function checkIP() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 51
+[06-Nov-2013 11:30:57] No POST data found.
+[06-Nov-2013 11:31:02] PHP Fatal error:  Call to undefined method Purchase::get() in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 56
+[06-Nov-2013 11:31:13] PHP Notice:  Undefined property: Purchase::$purchase in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 229
+[06-Nov-2013 11:31:13] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 229
+[06-Nov-2013 11:31:13] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 107
+[06-Nov-2013 11:32:54] PHP Notice:  Undefined property: Purchase::$purchase in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 230
+[06-Nov-2013 11:32:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 230
+[06-Nov-2013 11:32:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 108
+[06-Nov-2013 11:48:46] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 241
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:46] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:48:48] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 241
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:48:48] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:22] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:53:23] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:15] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:47] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:48] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:50] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:51] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:52] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:53] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:55] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:56] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:57] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:54:58] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:53] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:54] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:55] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:56] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:55:57] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:00] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:01] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:02] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:03] PHP Notice:  Undefined property: User::$expiration in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 111
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:56:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:51] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:53] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:54] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:57:55] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:41] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:41] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:58:46] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:58:46] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:18] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:18] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:18] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:19] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:19] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:19] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:19] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:20] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:21] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:21] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:22] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:22] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:23] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:23] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:25] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:25] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 11:59:26] PHP Notice:  Undefined property: Purchase::$attributeName in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 11:59:26] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:18] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:00:20] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:09] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:10] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:01:11] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:03:31] No POST data found.
+[06-Nov-2013 12:03:34] No POST data found.
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:15] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 194
+[06-Nov-2013 12:36:16] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/ifyoumakeit.com/store/php/purchasepal.php on line 195

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^get/([A-Za-z0-9-]+)/?$ get.php?code=$1
+RewriteRule ^get/?$ get.php
+RewriteRule ^booklet/?$ booklet.php
+RewriteRule ^paypal/?$ paypal.php
+RewriteRule ^download/?$ download.php
